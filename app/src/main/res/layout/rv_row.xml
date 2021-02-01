@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/rv_row_productImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp" />
+
+    <TextView
+        android:id="@+id/rv_row_pID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/rv_row_productImage"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/rv_row_pName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/rv_row_productImage"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/rv_row_pID" />
+
+
+    <TextView
+        android:id="@+id/rv_row_pPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/rv_row_productImage"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/rv_row_pName"
+
+        />
+
+
+</RelativeLayout>

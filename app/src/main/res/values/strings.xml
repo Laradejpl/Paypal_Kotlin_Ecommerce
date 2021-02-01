@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EcomerceAppKotlin</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="add_product">ADD PRODUCT</string>
+    <string name="get_product">Get Product</string>
+
+    <string name="string_get_data_from_server">GET DATA FROM SERVER</string>
+    <string name="textview">Name of Product</string>
+    <string name="tout_les_produits">Tout les Produits</string>
+    <string name="allproductView"></string>
+
+    <string name="download_image">Download image</string>
+    <string name="todo">TODO</string>
+</resources>
